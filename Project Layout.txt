@@ -1,0 +1,16 @@
+auto-streamline/
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py             # FastAPI Application Entrypoint
+│   │   ├── pipeline.py         # Data Cleaning & Feature Engineering Engine
+│   │   └── trainer.py          # Scikit-Learn & TensorFlow Model Selector
+│   ├── requirements.txt        # Backend dependencies
+│   └── Dockerfile              # Containerization layer
+│
+├── frontend/
+│   ├── app.py                  # Streamlit UI
+│   └── requirements.txt        # Frontend dependencies
+│
+└── docker-compose.yml          # Local multi-container orchestration
